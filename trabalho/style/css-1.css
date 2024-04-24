@@ -1,0 +1,132 @@
+::-webkit-scrollbar{ width: 10px;}
+::-webkit-scrollbar-track{background: gray ;}
+::-webkit-scrollbar-thumb{background: black; border-radius: 3px;}
+::-webkit-scrollbar-thumb:hover{background: #191919;}
+
+body{
+  background-image: url(https://www.ladrilar.com.br/wp-content/uploads/2020/12/cinza-escuro.png); 
+  background-size: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+  background-color: #191919;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* body */
+
+.titulo{
+  font-style: oblique;
+  filter: drop-shadow(2px -2px 2px black);
+  color: white;
+  text-align: center;
+}
+
+.texto{
+  font-style:normal;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  overflow-x: hidden;
+}
+
+.texto-produto{
+  font-style:normal;
+  color: white;
+  text-align: center;
+}
+
+.separação{
+  border: 2px solid black;
+  max-width: 47%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.eu-vou-voltar{
+  border: 2px solid black;
+  width: 181px;
+  height: 230px;
+  border-radius: 5px; 
+  background-size: 100%;
+}
+
+.bloco-produto{
+  background-color: black;
+  border-radius: 5px;
+  margin-bottom: -16px;
+}
+
+.texto-preço{
+  color: red;
+  font-style:normal;
+  font-size: 14px;
+}
+
+.bloco-preço{
+  background-color: white;
+  border-radius: 5px;
+  padding: 1px;
+  height: 50px;
+}
+
+.compra{
+  background-color: red;
+  border-radius: 25px;
+  border: red;
+  color: white;
+}
+
+/* os dois */
+
+.titulo-h2{
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+
+.lado-lado{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+
+.botão-fim{
+  border-radius: 25px;
+  border: 1px solid #0000009d;
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: #00000080;
+  color: white;
+}
+
+.botão-fim:hover {
+  background: #8583839d;
+}
+
+.div-fim{
+  border: 0px ;
+  padding: 10px;
+  width: 30%;
+}
+
+.texto-fim{
+  font-style:normal;
+  color: white;
+  text-align: center;
+}
+
+.baixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}

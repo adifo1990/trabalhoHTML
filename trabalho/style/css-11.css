@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: gray;
+}
+
+ul {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+li {
+    padding-top : 10px;
+}
+
+img {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+input[type = "checkbox"] {
+    display: none;
+}
+
+input[type = "checkbox"]:checked~nav {
+    transform: translate(350px);
+}
+
+nav {
+    background-color: black;
+    width: 350px;
+    height: 150vh;
+    position: absolute;
+    left: -350px;
+    transition: all 0.5s;
+    text-indent: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    display: block;
+}
+
+a:hover {
+    background-color: #333;
+}
+
+label {
+   position: absolute;
+   z-index: 1;
+}
+/* Adiciona este estilo para esconder inicialmente o submenu e ajustar o posicionamento */
+.submenu {
+    display: none;
+    top: 0;
+    left: 100%; /* Isso posiciona o submenu à direita do item principal */
+    margin-top: -10px; /* Ajuste para trazer o submenu para cima */
+}
+
+/* Adiciona este estilo para mostrar o submenu quando o item principal é clicado */
+li:hover .submenu {
+    display: block;
+}
+

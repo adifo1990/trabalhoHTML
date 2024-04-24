@@ -1,0 +1,189 @@
+::-webkit-scrollbar{ width: 10px;}
+::-webkit-scrollbar-track{background: transparent ;}
+::-webkit-scrollbar-thumb{background: black; border-radius: 3px;}
+::-webkit-scrollbar-thumb:hover{background: #191919;}
+
+body {
+    background-color: rgb(211, 211, 211);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.sombra {
+    filter: drop-shadow(0 0 10px black);
+}
+
+img {
+    border: 3px solid transparent;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 10px black);
+}
+
+.rgb{
+    background-image: url(img/13-rgb.gif);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.gu{
+    background-image: url(img/13-gus.jpg);
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.container {
+    display: flex;
+    margin-right: 10px;
+}
+
+.container div {
+    margin-right: 10px;
+}
+
+.esconde{
+        margin: 4px, 4px;
+        padding: 4px;
+        background-color: transparent;
+        color: black;
+        border: 3px solid rgb(136, 136, 136);
+        border-radius: 10px;
+        width: auto;
+        height: 110px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: justify;
+}
+
+.precod {
+    color: black;
+}
+
+.preco {
+    color: red;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.botaoc  {
+    border: none;
+    color: rgb(0, 255, 0);
+    padding: 15px 32px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #0000009d;
+}
+
+.botaoi  {
+    border: none;
+    color: rgb(255, 0, 0);
+    padding: 15px 32px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: not-allowed;
+    background-color: #0000009d;
+}
+
+.botaoi[title] {
+    position: relative;
+    
+  }
+  
+  .botaoi[title]:hover::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    background-image: url(img/13-gus.jpg);
+    background-position: center;
+    color: transparent;
+    border: 2px solid red;
+    border-radius: 5px
+  }
+
+.containers {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer */
+
+footer{
+  background-color: #191919;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.botão-fim{
+  border-radius: 25px;
+  border: 1px solid #0000009d;
+  width: 38px;
+  height: 38px;
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: #00000080;
+  color: white;
+}
+
+  .botão-fim a {     
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  }
+
+.botão-fim:hover {
+  background: #8583839d;
+}
+
+.div-fim{
+  border: 0px ;
+  padding: 10px;
+  width: 30%;
+}
+
+.texto-fim{
+  font-style:normal;
+  color: white;
+  text-align: center;
+}
+
+.link-fim{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.baixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* os dois */
+
+.titulo-h2{
+  font-style: oblique;
+  color: white;
+  text-align: center;
+}
+
+.lado-lado{
+  display: flex;
+  justify-content: space-between;
+}
